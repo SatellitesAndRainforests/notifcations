@@ -10,7 +10,9 @@ for a notificationDetails.json file input.
 - exsisting https://webhook.site webhook 
 
 ## set up 
-1. Clone the repository.
+1. git clone https://github.com/SatellitesAndRainforests/notifcations.git
+    or
+   download ZIP and unzip.
 2. Navigate to NotificationSender/
 
 ## compile and run in NotificationSender/
@@ -21,4 +23,5 @@ mvn clean package
 
 
 java -jar target/NotificationSender-1.0-SNAPSHOT.jar ./notificationDetails.json
+
 
